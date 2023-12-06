@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="collapsible" onclick="toggleSidebar()"><span class="material-symbols-rounded">menu</span></div>
+
+        <!-- aside section-->
+        <aside>
+            <!-- <h1>this is aside</h1> -->
+            <!-- side bar -->
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-symbols-rounded">swap_driving_apps_wheel</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">directions_car</span>
+                    <h3>Vehicles</h3>
+                    <span class="material-symbols-rounded" class="more">expand_more</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">tools_power_drill</span>
+                    <h3>Equipment</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">check_circle</span>
+                    <h3>Inspection</h3>
+                    <span class="material-symbols-rounded" class="more">expand_more</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">emergency_home</span>
+                    <h3>Issue</h3>
+                    <span class="material-symbols-rounded" class="more">expand_more</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">alarm_on</span>
+                    <h3>Reminders</h3>
+                    <span class="material-symbols-rounded" class="more">expand_more</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">build_circle</span>
+                    <h3>Service</h3>
+                    <span class="material-symbols-rounded" class="more">expand_more</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">contacts_product</span>
+                    <h3>Contacts</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">storefront</span>
+                    <h3>Vendors</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">box</span>
+                    <h3>Parts & Inventory</h3>
+                    <span class="material-symbols-rounded" class="more">expand_more</span> 
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">local_gas_station</span>
+                    <h3>Fuel History</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">pin_drop</span>
+                    <h3>Places</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">description</span>
+                    <h3>Documents</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-rounded">pie_chart</span>
+                    <h3>Reports</h3>
+                </a>
+            </div>
+
+        </aside>
+
+        <!-- main section -->
+        <main>
+            <div class="main-elements">
+                <div class="left-container">
+                    <h1>My Dashboard</h1>
+                    <span class="material-symbols-rounded">unfold_more</span>
+                </div>
+                <div class="right-container">
+                    <div class="text">
+                        <p>All groups</p>
+                        <span class="material-symbols-rounded">arrow_drop_down</span>
+                    </div>
+                    <span class="material-symbols-rounded icon">dashboard</span>
+                    <span class="material-symbols-rounded icon">fullscreen</span>
+                </div>
+            </div>
+
+            <!-- data -->
+            <div class="row">
+                <div class="item">
+                    <div class="description">
+                        <h2>Vehicle Status</h2>
+                        <span>Details ></span>
+                    </div>
+                    <img src="resources/vehicle_status.png" alt="vs" class="images">
+                </div>
+                <div class="item">
+                    <div class="description">
+                        <h2>Service Cost</h2>
+                        <span>Details ></span>
+                    </div>
+                    <img src="resources/Service_cost.png" alt="sc" class="images">
+                </div>
+                <div class="item">
+                    <div class="description">
+                        <h2>Overdue Inspection</h2>
+                        <span>Details ></span>
+                    </div>
+                    <img src="resources/Overdue_Inspection.png" alt="oi" class="images">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="item">
+                    <div class="description">
+                        <h2>Total Cost</h2>
+                        <span>Details ></span>
+                    </div>
+                    <img src="resources/Total_Cost.png" alt="tc" class="images">
+                </div>
+                <div class="item">
+                    <div class="description">
+                        <h2>Inspection Submission</h2>
+                        <span>Details ></span>
+                    </div>
+                    <img src="resources/Inspection_submission.png" alt="is" class="images">
+                </div>
+                <div class="item">
+                    <div class="description">
+                        <h2>Vehicle Assignment</h2>
+                        <span>Details ></span>
+                    </div>
+                    <img src="resources/Vehicle_assignment.png" alt="oi" class="images">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="item">
+                    <div class="description">
+                        <h2>Inspection Summary</h2>
+                        <span>Details ></span>
+                    </div>
+                    <img src="resources/Inspection_summary.png" alt="vs" class="images">
+                </div>
+                <div class="item">
+                    <div class="description">
+                        <h2>Inspection Item Faliure Rate</h2>
+                        <span>Details ></span>
+                    </div>
+                    <img src="resources/Inspection_from_faliure_rate.png" alt="sc" class="images">
+                </div>
+                <div class="item">
+                    <div class="description">
+                        <h2>Open Issues</h2>
+                        <span>Details ></span>
+                    </div>
+                    <img src="resources/Open_issues.png" alt="oi" class="images">
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
